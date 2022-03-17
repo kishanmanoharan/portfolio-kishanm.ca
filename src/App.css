@@ -1,0 +1,258 @@
+.App {
+  text-align: center;
+  overflow-y: auto;
+}
+
+/* width */
+html::-webkit-scrollbar {
+  width: 16px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 8px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+.App-header {
+  background-color: transparent;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#tsparticles {
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: #000;
+}
+
+nav {
+  margin: 0vh 2vw;
+  padding: 2vh 2vw;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ffffff20 !important;
+}
+
+a {
+  color: #fff !important;
+}
+
+.blur {
+  backdrop-filter: blur(2px);
+}
+.grey {
+  background-color: #ffffff20;
+  border-radius: 15px;
+}
+.align-middle {
+  vertical-align: middle !important;
+}
+
+.title-pad-0 {
+  margin-top: 5vh;
+}
+.title-pad-1 {
+  margin-top: 13vh;
+}
+.title-pad-2 {
+  margin-top: 22vh;
+}
+.title-pad-3 {
+  margin-top: 30vh;
+}
+.title h1 {
+  font-weight: 300 !important;
+  font-size: 220% !important;
+}
+.title h2 {
+  font-weight: 300 !important;
+  font-size: 180% !important;
+}
+.title h3 {
+  font-weight: 300 !important;
+  font-size: 120% !important;
+}
+.title h4 {
+  font-weight: 300 !important;
+  font-size: 80% !important;
+}
+.title h5 {
+  font-weight: 300 !important;
+  font-size: 70% !important;
+}
+.title p {
+  font-weight: 300 !important;
+  font-size: 50% !important;
+}
+
+.info {
+  padding: 2vh 2vw;
+}
+
+.btn {
+  border-radius: 10px !important;
+  border: none !important;
+  background-color: #ffffff20 !important;
+  color: #ffffff !important;
+  margin: 1vh 1vw !important;
+  padding: 1vh 1vw !important;
+}
+
+.btn:hover {
+  border: none !important;
+  background-color: #ffffffa0 !important;
+  color: #000000 !important;
+}
+.btn:active {
+  border-color: none !important;
+}
+.btn:focus {
+  border-color: none !important;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  box-shadow: none !important;
+}
+
+.projectCard {
+  min-height: 40vh;
+  background-image: none;
+  backdrop-filter: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 !important;
+  border-radius: 25px;
+  background-color: #202020;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
+  margin: 1vh 0;
+}
+.projectCard .projectCardTab {
+  background-color: #00000050;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}
+
+.projectCard .projectCardHover {
+  opacity: 0;
+  min-height: 40vh;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  backdrop-filter: blur(15px) brightness(0.6);
+  z-index: 100;
+  border-radius: 25px;
+  vertical-align: middle !important;
+}
+.projectCard:hover .projectCardHover {
+  opacity: 1;
+}
+.projectCard:hover .projectCardTab {
+  opacity: 0;
+}
+
+.svg {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  max-height: 150px;
+  margin: 1vh 1vw;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
+.svg:hover {
+  opacity: 1;
+}
+
+.progress-bar-container {
+  background-color: #ffffff50;
+  width: 100%;
+  height: 15px;
+  border-radius: 20px;
+  /* margin: 10px 0; */
+}
+.progress-bar {
+  /* background-color: #fff !important; */
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #fff 25px,
+    #ccc 25px,
+    #ccc 50px,
+    #fff 50px,
+    #fff 75px
+  ) !important;
+  width: 95%;
+  height: 15px;
+  border-radius: 20px;
+  background-repeat: repeat-x;
+}
+
+#ambientspotify {
+  background-image: url("img/ambientspotify.PNG");
+}
+
+#minimalminispotify {
+  background-image: url("img/minimalminispotify.PNG");
+}
+
+#reactweather {
+  background-image: url("img/reactweather.PNG");
+}
+
+#mobileweather {
+  background-image: url("img/mobileweather.PNG");
+}
+
+#mochatest {
+  background-image: url("img/mochatest.PNG");
+}
+
+#frontendemployee {
+  background-image: url("img/frontend-assignment2.PNG");
+}
+
+#recipes {
+  background-image: url("img/recipes.PNG");
+}
+
+#peopleplanner {
+  background-image: url("img/peopleplanner.PNG");
+}
+
+.tag {
+  background-color: #333;
+  border-radius: 15px;
+  width: fit-content;
+  font-weight: 300;
+  font-size: medium;
+  padding: 6px 10px !important;
+  margin: 4px !important;
+  display: inline-block;
+}
