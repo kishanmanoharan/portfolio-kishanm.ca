@@ -16,9 +16,9 @@ export const Resume = () => {
         <Container className="title title-pad-1">
           <Row>
             <h2>Resume</h2>
-            <h6>
+            <h5>
               Take a look below for a quick run-down, or download my full resume
-            </h6>
+            </h5>
             <Col>
               <Button href="./KishanManoharanResume-2022.pdf">
                 Open Resume

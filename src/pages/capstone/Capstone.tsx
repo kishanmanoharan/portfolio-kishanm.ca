@@ -11,9 +11,9 @@ export const Capstone = () => {
             <h4>
               <a href="https://github.com/kishanmanoharan">People Planner</a>
             </h4>
-            <h6>
+            <h5>
               Below is a detailed breakdown of my year-long capstone project
-            </h6>
+            </h5>
           </Row>
         </Container>
         <Container className="title-pad-1">

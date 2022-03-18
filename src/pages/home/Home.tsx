@@ -1,10 +1,14 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <>
+      {/* <Alert className="sitealert" variant="primary">
+        Check out my official site at{" "}
+        <Alert.Link href="https://kishanm.ca/">kishanm.ca</Alert.Link>
+      </Alert> */}
       <Container fluid className="App-header">
         <Container className="title title-pad-3">
           <Row className="justify-content-md-center">

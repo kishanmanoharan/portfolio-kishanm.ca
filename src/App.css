@@ -256,3 +256,12 @@ a {
   margin: 4px !important;
   display: inline-block;
 }
+
+.sitealert {
+  margin: 8px 2vw;
+  border-radius: 16px !important;
+}
+
+.sitealert > a {
+  color: #202020 !important;
+}
