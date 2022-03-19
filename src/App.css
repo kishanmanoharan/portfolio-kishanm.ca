@@ -56,6 +56,11 @@ a {
   color: #fff !important;
 }
 
+p {
+  font-size: large;
+  font-weight: 300;
+}
+
 .blur {
   backdrop-filter: blur(2px);
 }
@@ -108,7 +113,7 @@ a {
   padding: 2vh 2vw;
 }
 
-.btn {
+.btn-primary {
   border-radius: 10px !important;
   border: none !important;
   background-color: #ffffff20 !important;
@@ -117,22 +122,55 @@ a {
   padding: 1vh 1vw !important;
 }
 
-.btn:hover {
+.btn-primary:hover {
   border: none !important;
   background-color: #ffffffa0 !important;
   color: #000000 !important;
 }
-.btn:active {
+.btn-primary:active {
   border-color: none !important;
 }
-.btn:focus {
+.btn-primary:focus {
   border-color: none !important;
 }
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus {
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus {
   box-shadow: none !important;
 }
+
+.btn {
+  margin: 1vh 1vw !important;
+  border-radius: 10px !important;
+  padding: 1vh 1vw !important;
+  border: none !important;
+}
+
+/* .green-btn {
+  border-radius: 10px !important;
+  border: none !important;
+  background-color: #ffffff20 !important;
+  color: #ffffff !important;
+  margin: 1vh 1vw !important;
+  padding: 1vh 1vw !important;
+}
+
+.green-btn:hover {
+  border: none !important;
+  background-color: #ffffffa0 !important;
+  color: #000000 !important;
+}
+.green-btn:active {
+  border-color: none !important;
+}
+.green-btn:focus {
+  border-color: none !important;
+}
+.green-btn:focus,
+.green-btn:active:focus,
+.green-btn.active:focus {
+  box-shadow: none !important;
+} */
 
 .projectCard {
   min-height: 40vh;
@@ -264,4 +302,13 @@ a {
 
 .sitealert > a {
   color: #202020 !important;
+}
+
+.screenshot {
+  max-width: -webkit-fill-available;
+  border-radius: 12px;
+}
+
+.darkgrey {
+  padding: 12px 4px;
 }

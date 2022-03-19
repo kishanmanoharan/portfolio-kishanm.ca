@@ -18,6 +18,14 @@ export const KNavbar = () => (
           Home
         </NavLink>
         <NavLink
+          to="/about"
+          href="/about"
+          className="nav-link"
+          activeClassName="active"
+        >
+          About
+        </NavLink>
+        <NavLink
           to="/projects"
           href="/projects"
           className="nav-link"

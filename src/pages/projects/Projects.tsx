@@ -14,7 +14,7 @@ export const Projects = () => {
             </h5>
           </Row>
         </Container>
-        <Container className="title-pad-1">
+        <Container className="title-pad-0">
           <Row>
             <Col xl={3} lg={6}>
               <Container id="ambientspotify" className="projectCard title">

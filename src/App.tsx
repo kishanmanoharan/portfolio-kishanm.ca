@@ -11,6 +11,7 @@ import Projects from "./pages/projects";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import Capstone from "./pages/capstone";
+import About from "./pages/about";
 
 function App() {
   const location = useLocation();
@@ -52,6 +53,9 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
             <Route path="/projects">
               <Projects />
