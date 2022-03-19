@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button, Badge } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import login from "../../img/capstone/peopleplanner-login.png";
 import home from "../../img/capstone/peopleplanner-home.png";
 import schedule from "../../img/capstone/peopleplanner-schedule.png";
