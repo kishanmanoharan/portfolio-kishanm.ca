@@ -146,32 +146,6 @@ p {
   border: none !important;
 }
 
-/* .green-btn {
-  border-radius: 10px !important;
-  border: none !important;
-  background-color: #ffffff20 !important;
-  color: #ffffff !important;
-  margin: 1vh 1vw !important;
-  padding: 1vh 1vw !important;
-}
-
-.green-btn:hover {
-  border: none !important;
-  background-color: #ffffffa0 !important;
-  color: #000000 !important;
-}
-.green-btn:active {
-  border-color: none !important;
-}
-.green-btn:focus {
-  border-color: none !important;
-}
-.green-btn:focus,
-.green-btn:active:focus,
-.green-btn.active:focus {
-  box-shadow: none !important;
-} */
-
 .projectCard {
   min-height: 40vh;
   background-image: none;
@@ -311,4 +285,8 @@ p {
 
 .darkgrey {
   padding: 12px 4px;
+}
+
+.thin {
+  font-weight: 300;
 }
