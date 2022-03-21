@@ -45,7 +45,8 @@ export const About = () => {
                 <h5 className="thin">
                   I am currently looking for positions in the workforce to make
                   my passion my profession, and to arrive at my life long
-                  destination.
+                  destination. I love to learn, help and teach with those around
+                  me. Join me!
                 </h5>
               </div>
             </Col>

@@ -135,7 +135,10 @@ export const Capstone = () => {
                       </Button>
                     </h2>
                     <h4>In Development</h4>
-                    <h5>Expected delivery - April 2022</h5>
+                    <h5>
+                      Expected delivery - April 2022 <br /> Current task -
+                      Groups
+                    </h5>
                   </div>
                 </Col>
               </Row>
